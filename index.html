@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es-lan">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Seo tags-->
+    <meta name="description" content=" Asesoramiento inmobiliario confiable. Más de 16 años en la induistria inmobiliaria, ¡Nosotros te asesoramos! "> 
+    <title>Carmen Ortiz</title>
+    <link rel="shortcut icon" href="faviconCarmenOrtiz.png" type="image/x-icon">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- header section starts  -->
+<header class="header">
+
+    <a href="#" class="logo"> Asesora Carmen Ortiz <i class="fa-solid fa-magnifying-glass-chart"></i> </a>
+
+    <nav class="navbar">
+        <a href="#home">Principal</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <!-- <a href="english.html" id="leng-btn" class="fas fa-language" title="Change Lenguage"></a> -->
+    <button class="switch" id="switch">
+        <span><i class="fas fa-sun"></i></span>
+        <span><i class="fas fa-moon"></i></span>
+    </button>
+    <div class="scroll-indicator"></div>
+</header>
+<!-- header section ends -->
+
+<!-- home section starts  -->
+<section class="home" id="home">
+
+    <div class="box">
+        <div class="image">
+            <img src="Carmen Ortiz.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Asesoramiento inmobiliario para tus proyectos!</h3>
+            <p>Dieciséis años de experiencia en el sector inmobiliario, profesional con el conocimiento, aptitud y habilidades necesarias para desarrollar con éxito lo siguiente:</p>
+            <a href="#" class="btn" onclick="toggle1()">Leer Más</a>
+        </div>
+    </div>
+
+    <div id="popup">
+        <h2></h2>
+        <p>
+            <ol>
+                <li>Prospectar bienes inmuebles para su compra, venta y renta.</li>
+                <li>Conocimiento y aplicación de técnicas de prospección para identificar bienes inmuebles sujetos a comercialización.</li>
+                <li>Identificar la vialidad de la compraventa o renta del inmueble.</li>
+                <li>Indicar derechos obligaciones fiscales correspondientes a la compra, venta o renta del inmueble.</li>
+                <li>Realización del acompañamiento desde su prospección hasta la firma de las escrituras.</li>
+            </ol>
+        </p>
+        <a href="#" onclick="toggle1()">Cerrar</a>
+    </div>
+
+    <!--<div class="box">
+        <div class="content">
+            <h3>Otro titulo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt id repellendus numquam. Maxime veritatis consequatur nobis architecto incidunt rem esse?</p>
+            <a href="#" class="btn">Leer Más</a>
+        </div>
+        <div class="image">
+            <img src="images/home-img-2.png" alt="">
+        </div>
+    </div>-->
+
+    <!--
+        <div class="box">
+        <div class="image">
+            <img src="images/home-img-3.png" alt="">
+        </div>
+        <div class="content">
+            <h3>everything you need is here!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt id repellendus numquam. Maxime veritatis consequatur nobis architecto incidunt rem esse?</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+    -->
+
+</section>
+<!-- home section ends -->
+
+<!-- services section starts  -->
+<section class="services" id="services">
+
+    <h1 class="heading"> Nuestros <span>Servicios</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="compress img/serv-1.png" alt="">
+            <h3>Garantía de resultado</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, delectus!</p>
+        </div>
+
+        <div class="box">
+            <img src="compress img/serv-2.png" alt="">
+            <h3>Acompañamiento de principio a fin</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, delectus!</p>
+        </div>
+    </div>
+</section>
+
+
+<!--properties for sale section starts-->
+<h1 class="heading"> Propiedades <span>En Venta</span> </h1>
+    <div class="cont">
+        <div class="img-slider">
+            <div class="slide active">
+            <img src="compress img/1.jpg" alt="bienes raíces" lazy="loading">
+            <div class="info">
+                <p>Mina "El Sol" cuenta con una superficie de 4,300 hectáreas, ubicada en la localidad de Jalapa, perteneciente al municiipo de Parras, Estado de Coahuila, México y cuenta con una concesión minera de 50 años vigente hasta 2063.
+                    <a href="presentaciones/Comparto 'p.p. EL SOL' con usted-convertido (1).pdf" class="link-pdf"><br> Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/2.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>El viñedo San Miguel es una casa finamente amueblada, de lujo que tiene su propio viñedo para producir vino de la más alta calidad.
+                <a href="presentaciones/Viñedo San Miguel.pdf" class="link-pdf"> <br >Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/3.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Un terreno ubicado en la zona sur de "Isla Mujeres", Q. Roo. México;
+                Que cuenta con una superficie total de 63,000.00 m2.
+                <a href="presentaciones/TERRENO ISLA MUJERES 2019.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/5.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Mina "La Perla" ubicada en Zacatecas con una superficie de 400 hectáreas (incluyendo la tierra), en la que puedes encontar mayormente litio (Li).
+                <a href="presentaciones/PDF LA PERLA.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/6.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Lotes de terreno de 10,000 y 14,447 m2 ubicado en Blvd. Kukulcán Km. 14.5 Retorno San Miguelito Lote 51-A y 51-C, Zona hotelera, Cancún México. 
+                <a href="presentaciones/La Ultima Joya en el Caribe   Mexicano.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/7.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Hotel "Mesones" ubicado en la calle Mesones, colonia Centro, Alcaldía Cuauhtémoc CDMX, que cuenta con una construcción de 1,740.00 m2 y un terreno de 525.00 m2. 
+                <a href="presentaciones/HOTEL MESONES CDMX.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/8.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Mina de mercurio, se encuentra en el Estado de Guerrero colindando con el Estado de México, cuenta con una superficie total de 200 hectáreas y cuenta con una conseción minera hasta octubre del 2056.
+                <a href="presentaciones/MINA DE MERCURIO.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/9.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Terreno situado en el corazón de la Riviera Maya, ubicado en el kilometro 287 de la carretera de la Playa de Carmen-Tulúm. Cuenta con un frente de playa de 1,500 metros lineales.
+                <a href="presentaciones/297 Has Punta Venado PDF.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/10.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Hotel & Suite ubicado en el corazón de Playa del Carmen, con habitaciones suites de 1 y 2 recámaras
+                <a href="presentaciones/BLUE PALMS PLAYA DEL CARMEN.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/11.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Mina ubicada en los límites del Estado de México y el Estado de Guerrero y teniendo una superficie de 5, 47 hectáreas, se tiene tres cuerpos de oro, plata y cobre.
+                <a href="presentaciones/MINA ESTADO DE MÉXICO.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/12.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Fabrica tequilera
+                <a href="presentaciones/tequlera2.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/13.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Departamentos de lujo.
+                <a href="presentaciones/24 depas.pdf" class="link-pdf">Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/14.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Terreno de 39,036 m2 ubicado en la Glorieta Vasco de Quiroga, Santa Fé, Cuidad de México . 
+                <a href="presentaciones/terreno vasco.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/15.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Mina de oro. 
+                <a href="presentaciones/reservas proyexto cis.pdf" class="link-pdf">Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/16.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Departamento en renta, todo equipado en el piso quince a cinco minutos de Santa Fe, Ciudad de México. 
+                <a href="presentaciones/SantaLucia.pdf" class="link-pdf">Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/17.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Rancho Tamuin ubicado en San Luis Potosí, preparado para la ganadería y agricultura. 
+                <a href="presentaciones/rancho.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/18.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Hermosa casa frente al mar con vista a Isla Mujeres cuenta con 471.74 m2 más 20 m2 de Zona Federal y 586.33  m2 contruidos sin contar la cochera.
+                <a href="presentaciones/zona cancun.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/19.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p>Inmueble ubicado en Tulum, Quintana Roo, México. 
+                <a href="presentaciones/kaybe.pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="compress img/20.jpg" alt="bienes raíces"lazy="loading">
+            <div class="info">
+            <p> Terreno de 100 hectáreas con excelente vías de
+                comunicación apto para proyecto eco turismo Residencial
+                y Áreas comerciales. 
+                <a href="presentaciones/Terreno en Macahuite Pochutla Oaxaca(1)[1721].pdf" class="link-pdf"><br>Más Información <i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <div class="btns active"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+            <div class="btns"></div>
+        </div>
+        </div>
+        <script src="slider.js"></script>
+    </div>
+<!-- properties for sale section ends-->
+
+<!--contact section starts-->
+<section class="contact" id="contact">
+
+    <h1 class="heading"> Contáctanos <span><i class="fa-solid fa-phone"></i></span>   </h1>
+
+    <div class="row">
+
+        <form action="https://formsubmit.co/morenoestradasantiago@gmail.com" method="POST">
+            <h3>¡Envíanos un Mensaje!</h3>
+            <input type="text" placeholder="nombre..." class="input-box"  name="Nombre:">
+            <input type="email" placeholder="email..." class="input-box" name="Email:">
+            <input type="text" placeholder="asunto..." class="input-box" name="Asunto:">
+            <textarea name="Mensaje: " placeholder="mensaje..." class="input-box" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+
+    </div>
+
+</section>
+<!-- contact section ends -->
+
+<!-- newsletter section starts  -->
+<section class="newsletter">
+    <div class="content">
+        <h3>newsletter</h3>
+        <p>suscribete para recibir notificaciones de nuevas ofertas!.</p>
+    </div>
+    <form action="https://formsubmit.co/morenoestradasantiago@gmail.com" method="POST">
+        <input type="email" name="Recibir newsletter: " placeholder="ingrese su correo eléctronico" id="" class="email">
+        <input type="submit" value="suscribete!" class="btn">
+    </form>
+</section>
+<!-- newsletter section ends -->
+
+<!-- footer section starts  -->
+<section class="quick-links">
+
+    <a href="#" class="logo"> Asesora Carmen Ortiz <i class="fa-solid fa-magnifying-glass-chart"></i> </a>
+
+    <div class="links">
+        <a href="#home">Principal</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </div>
+
+</section>
+<section class="credit">
+    <p>Created by <span>Santi Moreno</span> | for <span> Asesora Carmen Ortiz </span> | all rights reserved!</p>
+</section>
+
+<!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+</body>
+</html>
